@@ -13,25 +13,25 @@ public class default_page extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_default_page);
 
-//        // switch to parent page
-//        Button parent = (Button)findViewById(R.id.activateParent);
-//        parent.setOnClickListener(new View.OnClickListener() {
-//
-//            @Override
-//            public void onClick(View v){
-//                Intent startIntent= new Intent(getApplicationContext(), MainActivity.class);
-//                startActivity(startIntent);
-//            }
-//        });
+        // switch to parent page
+        Button parent = (Button)findViewById(R.id.activateParent);
+        parent.setOnClickListener(new View.OnClickListener() {
 
-//        // switch to driver page
-//        Button driver = (Button)findViewById(R.id.activateDriver);
-//        driver.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v){
-//                Intent startIntent1= new Intent(getApplicationContext(), Main2Activity.class);
-//                startActivity(startIntent1);
-//            }
-//        });
+            @Override
+            public void onClick(View v){
+                Intent startIntent= new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(startIntent);
+            }
+        });
+
+        // switch to driver page
+        Button driver = (Button)findViewById(R.id.activateDriver);
+        driver.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v){
+                Intent startIntent1= new Intent(getApplicationContext(), Main2Activity.class);
+                startActivity(startIntent1);
+            }
+        });
     }
 }
