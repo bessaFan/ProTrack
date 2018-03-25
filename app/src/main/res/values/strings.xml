@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">ProTrack_bessa</string>
+    <string name="app_name"></string>
+    <string name="Parent">Parent/Guardian</string>
+    <string name="status">Status</string>
+    <string name="logText">Today\'\s Log</string>
+    <string name="previousLogText">Previous Logs</string>
 </resources>
